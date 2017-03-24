@@ -6,6 +6,7 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+
     gem install bundler
     bundle install
     rake db:setup
@@ -22,6 +23,10 @@ application up and running.
     // Make sure you add facebook sign in product  http://stackoverflow.com/questions/37063685/facebook-oauth-the-domain-of-this-url-isnt-included-in-the-apps-domain + Callback URL like http://localhost:3000 to the Valid OAuth redirect URIs field on the settings page of Facebook Login
 
     ./bin/rails server
+
+Heroku deployment
+http://docs.railsbridge.org/intro-to-rails/deploying_to_heroku
+
 
 
 
