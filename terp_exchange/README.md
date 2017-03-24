@@ -16,6 +16,8 @@ application up and running.
     end
 
 
+    // Make sure you add facebook sign in product  http://stackoverflow.com/questions/37063685/facebook-oauth-the-domain-of-this-url-isnt-included-in-the-apps-domain + Callback URL like http://localhost:3000 to the Valid OAuth redirect URIs field on the settings page of Facebook Login
+
     ./bin/rails server
 
 
